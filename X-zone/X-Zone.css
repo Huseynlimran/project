@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+
+* {
+
+    font-family: 'DM Sans', sans-serif;
+    
+
+}
+*::selection {
+    background-color: #D946EF;
+    color: white;
+}
+body {
+    background: #23153a;
+}
+
+
+.arxa {
+    background: #23153a;
+}
+.button{
+    padding: 0.6em 1.6em;
+    color: white;
+    background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+    border-radius: 10px;
+    border: 1px solid #23153a;
+    transition: .6s;
+    background: linear-gradient(-45deg, #23153a, #D946EF,#2563EB);
+    background-size: 200% 200%;
+    animation: change 5s ease-in-out infinite;
+}
+
+@keyframes change {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50% ;
+    }
+}
+.button:hover{
+    background-color: white;
+    color: #23153a ;
+    border: 1px white solid;
+}
+nav .button {
+    padding: 0.6em 1.6em;
+    color: white;
+    background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+    border-radius: 10px;
+    border: 1px solid #23153a;
+    transition: .6s;
+    background-size: 400% 400%;
+    animation: change 10s ease-in-out infinite;
+}
+nav .button:hover {
+    background-color: white;
+    color: #23153a ;
+    border: 1px white solid;
+}
+.fs2 {
+    font-family: DM Sans;
+    color: #2563EB;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 84px;
+    /* or 145% */
+    
+    letter-spacing: 0.02em;
+}
+.fs2 {
+    color: transparent;
+    background-image: linear-gradient(to left,#2ecc71,white,#3498db,#9b59b6, #2563EB, #D946EF);
+    -webkit-background-clip: text ;
+    animation: animate 10s linear infinite;
+    -webkit-background-size: 500%;
+
+}
+@keyframes animate {
+    0%{
+        background-position: 0 100%;
+    }
+    50%{
+        background-position: 100% 0;
+    }
+    100%{
+        background-position: 0 100%;
+    }
+}
+
+.bluro {
+    background: linear-gradient(268.12deg, rgba(254, 254, 255, 0.032) -11.04%, rgba(255, 255, 255, 0.018) 104.89%);
+
+}
+.bgp1 {
+    background-image: url(/Rectangle\ 54\ \(3\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 370px;
+    height: 336px;
+}
+
+.brw {
+    border-radius: 30px;
+}
+
+.bg2 {
+    background-image: url(/Rectangle\ 54\ \(2\).png);
+    background-size: cover;
+    background-position: center;
+}
+.frm {
+    padding: 1em 4.5em;
+    padding-left: 1em;
+    border-radius: 50px;
+    background-color: transparent;
+    border: none;
+    
+}
+.frm::placeholder{
+    color: white;
+    padding-left: 0;
+}
+.bgp{
+    background-image: url(/Rectangle\ 54\ \(4\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 270px;
+    height: 310px;
+
+}
+
+.pl{
+
+    font-size:10px ;
+
+}
+
+.linkler{
+    color: whitesmoke;
+    transition: 0.5s;
+}
+.linkler:hover{
+    color: rgb(109, 109, 109);
+    padding-left: 10px;
+}
+.linkler1{
+    color: whitesmoke;
+}
+.linkler1:hover{
+    color: gray;
+}
+.anim {
+    animation-name: animasyon;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animasyon {
+    bottom {
+        bottom: 0px;
+    }
+    to {
+        bottom: 1200px;
+    }
+}
